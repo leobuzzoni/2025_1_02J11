@@ -11,5 +11,7 @@ public class Espetaculo {
         int qtdeConvites23 = (int) Math.ceil(custoProducao * 1.23 / valorIngresso);
         System.out.printf("Quantidade de Convites = %d\n", qtdeConvites);
         System.out.printf("Lucro de 23%%: %d\n", qtdeConvites23);
+
+        entrada.close();
     }
 }
